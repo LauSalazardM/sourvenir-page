@@ -1,0 +1,18 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 200;
+    line-height: 1;
+}
+body{
+    background-color: grey;
+    display: flex;
+}
+
+.card{
+    margin: 4vh auto;
+    padding: 20px;
+    border: solid red 1px;
+    background-color: whitesmoke;
+}
