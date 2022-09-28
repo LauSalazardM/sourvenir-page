@@ -1,18 +1,44 @@
 *{
+    color: #333;
     margin: auto;
     padding: 0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 200;
-    line-height: 1;
+    box-sizing: border-box;
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'WindSong', cursive; */
 }
 body{
     background-color: grey;
     display: flex;
 }
+ul li{
+    font-weight: 600;
+
+}
 
 .card{
-    margin: 4vh auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 20px 5px 10px;
+    max-width: 22vw;
+    min-width: 288px;
+    border-radius: 6px;
     border: solid red 1px;
+    background-color: whitesmoke;
+    box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-title, .card-title h1{
+    padding: 2px 18px;
+    font-family: 'Caveat', cursive;
+    line-height: .9;
+    /* border: solid red 1px; */
+    font-size: 50px;
+    text-align: center;
+}
+.card-body{
+    margin: 26px auto 6px;
+    padding: 6px 40px 0;
+    /* border: solid red 2px; */
     background-color: whitesmoke;
 }
