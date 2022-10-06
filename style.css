@@ -9,7 +9,7 @@
     /* font-family: 'WindSong', cursive; */
 }
 body{
-    background-color: grey;
+    background-color: rgba(203, 155, 93, 0.46);
     display: flex;
 }
 ul li{
@@ -20,8 +20,8 @@ ul li{
 .card{
     margin: 20px auto;
     padding: 20px 5px 10px;
-    max-width: 22vw;
-    min-width: 288px;
+    max-width: 30vw;
+    min-width: 480px;
     border-radius: 6px;
     border: solid red 1px;
     background-color: whitesmoke;
@@ -41,4 +41,13 @@ ul li{
     padding: 6px 40px 0;
     /* border: solid red 2px; */
     background-color: whitesmoke;
+}
+
+
+@media (max-width: 600px) {
+    .card{
+        max-width: 80vw;
+        min-width: 280px;
+        background-color: black;
+    }
 }
